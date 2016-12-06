@@ -1,3 +1,1 @@
-export default {
-  Text: require('./elements/Text')
-}
+export const Text = require('./elements/Text')
