@@ -1,3 +1,3 @@
-module.exports = {
+export default {
   Text: require('./elements/Text')
 }
