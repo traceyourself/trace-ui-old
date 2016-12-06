@@ -1,0 +1,18 @@
+exports[`test Text renders like a boss 1`] = `
+<span
+  data-css-1w5ne0l=""
+  data-css-bytx6u=""
+  data-css-pc0l6w="">
+  like a boss
+</span>
+`;
+
+exports[`test Text renders transform 1`] = `
+<span
+  data-css-1w5ne0l=""
+  data-css-459srw=""
+  data-css-bytx6u=""
+  data-css-pc0l6w="">
+  like a boss
+</span>
+`;

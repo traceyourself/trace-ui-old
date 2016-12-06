@@ -1,0 +1,47 @@
+{
+  "name": "trace-ui",
+  "version": "1.0.0",
+  "description": "reusable components made w/ <3 by Trace",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancestorcloud/trace-ui.git"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ancestorcloud/trace-ui/issues"
+  },
+  "homepage": "https://github.com/ancestorcloud/trace-ui#readme",
+  "dependencies": {
+    "@kadira/storybook": "^2.33.1",
+    "babel-jest": "^17.0.2",
+    "babel-polyfill": "^6.16.0",
+    "enzyme": "^2.6.0",
+    "glamor": "^2.20.12",
+    "jest": "^17.0.3",
+    "react": "15.4.1",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "15.4.1",
+    "react-test-renderer": "^15.4.1"
+  },
+  "jest": {
+    "testRegex": "(test|spec).(js)$"
+  },
+  "standard": {
+    "showEslintRules": true,
+    "parser": "babel-eslint",
+    "rules": {
+      "strict": 0
+    }
+  }
+}
