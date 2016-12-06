@@ -2,8 +2,11 @@
   "name": "trace-ui",
   "version": "1.0.0",
   "description": "reusable components made w/ <3 by Trace",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel --copy-files --out-dir dist src",
+    "prepublish": "npm run build",
+    "prebuild": "rm -rf dist && mkdir dist",
     "test": "jest --watch",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
@@ -23,16 +26,19 @@
   },
   "homepage": "https://github.com/ancestorcloud/trace-ui#readme",
   "dependencies": {
-    "@kadira/storybook": "^2.33.1",
-    "babel-jest": "^17.0.2",
-    "babel-polyfill": "^6.16.0",
-    "enzyme": "^2.6.0",
-    "glamor": "^2.20.12",
-    "jest": "^17.0.3",
-    "react": "15.4.1",
-    "react-addons-test-utils": "^15.4.1",
+    "glamor": "2.20.12",
+    "react": "15.3.2"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "2.33.1",
+    "babel-cli": "6.18.0",
+    "babel-jest": "17.0.2",
+    "babel-polyfill": "6.16.0",
+    "enzyme": "2.6.0",
+    "jest": "17.0.3",
+    "react-addons-test-utils": "15.4.1",
     "react-dom": "15.4.1",
-    "react-test-renderer": "^15.4.1"
+    "react-test-renderer": "15.4.1"
   },
   "jest": {
     "testRegex": "(test|spec).(js)$"

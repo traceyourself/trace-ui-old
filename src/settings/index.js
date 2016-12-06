@@ -10,7 +10,8 @@ export const colors = {
   success: '#18CC75',
   danger: '#E3551C',
   background: '#F8F8F8',
-  white: '#FFFFFF'
+  white: '#FFFFFF',
+  black: '#000000'
 }
 
 export const typography = {
